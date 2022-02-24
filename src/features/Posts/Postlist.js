@@ -21,6 +21,9 @@ const Posts = ({ history }) => {
             <button type="button" onClick={() => {
                 history.push("/addpost");
             }}>Add post</button>
+            <button type="button" onClick={() => {
+                history.push("/users");
+            }}>See users</button>
         </div>
     );
 }

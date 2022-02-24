@@ -13,4 +13,4 @@ const userSlice = createSlice({
     reducers: {}
 });
 
-export default userSlice.actions;
+export default userSlice.reducer;
