@@ -4,6 +4,7 @@ import Posts from './features/Posts/Postlist';
 import AddPost from './features/Posts/AddPost';
 import EditPost from './features/Posts/Editpost';
 import SinglePost from './features/Posts/Singlepost';
+import Users from './features/Users/users';
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
                 <Route exact path="/" component={Posts}/>
                 <Route path="/addpost" component={AddPost}/>
                 <Route path="/editpost/:id" component={EditPost}/>
+                <Route path="/users" component={Users}/>
                 <Route path="/singlepost/:id/:title/:comment" component={SinglePost}/>
             </Switch>
         </Router>
